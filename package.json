@@ -6,8 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/swagger": "^0.6.2",
+    "@prisma/client": "^5.3.1",
     "elysia": "latest",
-    "elysia-group-router": "^1.0.1"
+    "elysia-group-router": "^1.0.1",
+    "prisma": "^5.3.1"
   },
   "devDependencies": {
     "bun-types": "latest"
