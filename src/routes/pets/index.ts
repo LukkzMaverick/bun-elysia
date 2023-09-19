@@ -1,5 +1,5 @@
 import { t, type Elysia } from 'elysia';
-import { prisma } from '../../../prisma/instance';
+import { prisma } from '../../prisma';
 
 export default function petsRoutes(app: Elysia, prefix: string) {
   return app.group(prefix, (app) => app.get('', () => 'hello pets').post('/', async ({set, body}) => {
