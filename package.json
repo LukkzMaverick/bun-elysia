@@ -10,6 +10,7 @@
     "@prisma/client": "^5.3.1",
     "elysia": "latest",
     "elysia-group-router": "^1.0.1",
+    "js-runtime": "^0.0.6",
     "prisma": "^5.3.1"
   },
   "devDependencies": {
